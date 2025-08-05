@@ -80,8 +80,8 @@ if __name__ == "__main__":
     sys.setrecursionlimit(10_000)  # Evita RecursionError para n ≤ 1024-2048
 
     #sizes = [2, 4, 8, 16, 32, 64, 128, 256]
-    #sizes = [2, 4, 8, 16, 32, 64]
-    sizes = [128,256,512,1024]
+    sizes = [2, 4, 8, 16, 32, 64]
+    #sizes = [128,256,512,1024]
     times = []
     repeats = 10  # Número de repeticiones
     for n in sizes:

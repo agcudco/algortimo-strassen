@@ -24,3 +24,10 @@ pip install -r requirements.txt
 ```python
 python .\strassen_v2.py
 ```
+
+
+## Ejecutar mediante Jupyter
+
+```
+python -m notebook
+```
